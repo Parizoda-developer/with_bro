@@ -1,0 +1,736 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --brown: #996b60;
+}
+
+.container {
+    max-width: 84.3rem;
+    padding: 0 0.9rem;
+    margin: 0 auto;
+}
+
+.header_container_extra {
+    background-color: var(--brown);
+}
+
+/* Advertisement_section */
+
+.advert_section_background {
+    background-color: #191919;
+    padding: 10px;
+
+}
+
+.aside_adver_section_paragraph {
+    width: 13.1rem;
+    height: 1.1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+/* Advertisement_section */
+
+/* Header_section */
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.3rem 2.5rem;
+}
+
+.header_logo {
+    position: relative;
+    z-index: 3;
+}
+
+.header_nav_ul,
+.header_extra_buttons {
+    list-style: none;
+    display: flex;
+    gap: 3.75rem;
+    z-index: 3;
+    position: relative;
+}
+
+.header_nav_ul a,
+.header_extra_buttons a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* /Header_section */
+
+
+/* Hero_section */
+.hero_container {
+    display: flex;
+    gap: 3.75rem;
+}
+
+.hero_img {
+    display: block;
+
+}
+
+.hero_img img {
+    position: relative;
+    top: -7.3rem;
+    left: -6.2rem;
+    width: 110%;
+    height: 114%;
+}
+
+.hero_content {
+    width: 37.5rem;
+    align-self: flex-end;
+}
+
+.hero_content_title {
+    width: 31.2rem;
+    font-weight: 25rem;
+    font-size: 4.5rem;
+    line-height: 6rem;
+    margin-bottom: 2.1rem;
+    color: white;
+}
+
+.hero_content_desc {
+    font-weight: 25rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-bottom: 2.8rem;
+    color: #ffffff;
+}
+
+.hero_content_shop_all {
+    font-size: 0.75rem;
+    line-height: 0.8rem;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.063rem;
+    text-transform: uppercase;
+    color: #000000;
+    border: 0.063rem solid #ffffff;
+    padding: 1.2rem 3.2rem;
+    text-decoration: none;
+    margin-bottom: 6.2rem;
+}
+
+/* /Hero_section */
+
+/* Comments_section */
+.comments_container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 1.8rem;
+}
+
+.comments_item_paragraph {
+    width: 18rem;
+    height: 4rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #000000;
+}
+
+.comments_item_logo_design {
+    margin-top: 2.2rem;
+    width: 18.7rem;
+}
+
+hr {
+    background: #BDBDBD;
+    width: 82.5rem;
+    margin-top: 1.8rem;
+}
+
+/*/Comments_section */
+
+/* shopping_ingredients_explanation */
+
+.shopping_ingredients_explanation {
+    width: 42rem;
+    height: 10rem;
+    margin: 0 auto;
+    margin-top: 1.8rem;
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 4rem;
+    line-height: 5rem;
+    text-align: center;
+    color: #000000;
+}
+
+.shopping_ingredients_explanation_extra {
+    width: 9.3rem;
+    height: 1.1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    letter-spacing: 0.063rem;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.shopping_ingredients_general_items {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 3.1rem;
+}
+
+.shopping_ingredients_main_heading {
+    margin: 0 auto;
+    margin-top: 3.1rem;
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 4rem;
+    line-height: 5rem;
+    text-align: center;
+    color: #000000;
+}
+
+.shopping_ingredients_main_paragraph {
+    width: 9.3rem;
+    height: 1.1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.063rem;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.image_best_seller_logo {
+    position: relative;
+    z-index: -1;
+}
+
+.best_seller_logo {
+    width: 7.8rem;
+    height: 6.8rem;
+    position: absolute;
+    top: 2.5rem;
+    left: 16.8rem;
+}
+
+.shopping_ingredients_general_items_title {
+    width: 18.1rem;
+    margin: 0 auto;
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    /* text-align: center; */
+    color: #000000;
+}
+
+.shopping_ingredients_img {
+    width: 23.8rem;
+}
+
+.shopping_ingredients_general_items_paragraph {
+    width: 23.6rem;
+    height: 3.5rem;
+    margin-top: 0.6rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    text-align: center;
+    color: #000000;
+}
+
+
+.shopping_ingredients_general_btn {
+    height: 3.2rem;
+    background: #191919;
+    border: 0.063rem solid #191919;
+    /* border-radius: 0px; */
+    padding: 1.1rem 3rem;
+    width: 5.1rem;
+    height: 0.8rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 0.75rem;
+    line-height: 0.8rem;
+    text-align: center;
+    letter-spacing: 0.063rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.shopping_ingredients_general_items_btn {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+.last_hr_section {
+    margin-top: 9.3rem;
+    background: #BDBDBD;
+}
+
+/* /shopping_ingredients_explanation */
+
+/* Big_glasses_picture_img */
+
+.Big_glasses_picture_img {
+    margin-top: 3.1rem;
+}
+
+.Big_glasses_picture_general_item_box {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.Big_glasses_picture_paragraph {
+
+    height: 6rem;
+    left: 58.33%;
+    padding: 1.8rem;
+    /* margin-top: 2.5rem; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: #000000;
+}
+
+.Big_glasses_picture_title {
+    height: 5rem;
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 25rem;
+    margin-top: 2.5rem;
+    font-size: 3.3rem;
+    line-height: 5rem;
+    color: #000000;
+
+}
+
+.last_big_image_hr_section_ {
+    background: #BDBDBD;
+    margin-top: 2.5rem;
+}
+
+
+.general_explanation_about_liquids_item {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 3.1rem;
+}
+
+.easy_to_drink {
+    height: 2.7rem;
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    margin-top: 3.1rem;
+    color: #000000;
+}
+
+.easy_to_drink_paragraph {
+    height: 6rem;
+    left: 0%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: #000000;
+    margin-top: 1.2rem;
+}
+
+.natural_ingredients_title {
+    height: 5.5rem;
+    left: 0%;
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 2.2rem;
+    line-height: 2.75rem;
+    margin-top: 1.25rem;
+    color: #000000;
+}
+
+.natural_ingredients_paragraph {
+    height: 8rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-top: 1.25rem;
+    color: #000000;
+}
+
+.Delivered_to_your_door_title {
+    height: 2.7rem;
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 1.8rem;
+    margin-top: 1.25rem;
+    line-height: 2.7rem;
+    color: #000000;
+}
+
+.Delivered_to_your_door_paragraph {
+    height: 4rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    margin-top: 1.25rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: #000000;
+}
+
+/* /Big_glasses_picture_img */
+
+/* Extra section explanation about drinks */
+
+.extra_container {
+    margin-top: 3.7rem;
+    background-color: #000000;
+    padding: 1.8rem;
+}
+
+.Extra_section_explanation_about_drinks_item {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 3.1rem;
+}
+
+.Extra_section_explanation_about_drinks_heading4 {
+    width: 19.8rem;
+    height: 6rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.names {
+    width: 4.9rem;
+    height: 1.3rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.occupation {
+    width: 6.5rem;
+    height: 1.5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+    text-transform: capitalize;
+    color: #8A8A8A;
+}
+
+/* Different things section */
+
+.different_things_items {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.different_things_card_title {
+    height: 10rem;
+    padding: 1.5rem;
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    text-align: center;
+    margin-top: 3.7rem;
+    font-weight: 25rem;
+    font-size: 4rem;
+    line-height: 5rem;
+    color: #000000;
+
+}
+
+.flower_pic {
+    /* width: 500px; */
+    margin-top: 3.1rem;
+}
+
+.different_things_card_paragraph {
+    height: 6rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-top: 10rem;
+    color: #000000;
+}
+
+.learn_more_href {
+    margin-top: 2.1rem;
+}
+
+.learn_more_href a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+    text-decoration: none;
+    letter-spacing: 0.063rem;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.set_the_mood_section {
+    background-image: url(./Image/back\ img\ party.png);
+    background-size: cover;
+    padding: 9.3rem;
+    margin-top: 3.1rem;
+}
+
+.set_the_mood_main_beginning_item_box {
+    background: #000000;
+    width: 34.3rem;
+    background: #000000;
+    border-radius: 0;
+    padding: 2.5rem 4.3rem;
+}
+
+.set_the_mood_main_beginning_heading {
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 3.4rem;
+    line-height: 5rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0.56rem;
+}
+
+.set_the_mood_main_beginning_paragraph {
+    width: 25.7rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.spotify_btn_href {
+    padding: 1.1rem 3.6rem;
+    background: #FFFFFF;
+    border: 0.063rem solid #FFFFFF;
+    border-radius: 0px;
+    width: 4rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 0.75rem;
+    line-height: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.063rem;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.spotify_btn {
+    margin: 0 auto;
+    width: 11.2rem;
+    margin-top: 3.1rem;
+
+}
+
+.following_items_section {
+    background-color: #000000;
+    margin-top: 1.25rem;
+    width: 34.3rem;
+    padding: 1.8rem 9.8rem;
+}
+
+.giving_advice_about_beverage {
+    width: 14.6rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.social_networks {
+    width: 5.1rem;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 0.7rem;
+    line-height: 1.1rem;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.following_us_item_box {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 1.25rem;
+    gap: 1.8rem;
+
+}
+
+/* Footer_section */
+.footer_section {
+    background-color: #000000;
+    padding: 3.1rem;
+    color: white;
+}
+
+.footer_inner {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.6rem;
+
+}
+
+.footer__item {
+    margin-top: 0.9rem;
+    list-style: none;
+}
+
+.footer__item a {
+    text-decoration: none;
+    /* list-style: none; */
+    color: white;
+    font-weight: 18.7rem;
+    font-size: 1.1rem;
+    line-height: 2.3rem;
+}
+
+.footer_left {
+    width: 24.4rem;
+}
+
+.footer_inner_email_submit_href {
+    background: #8A8A8A;
+    width: 25rem;
+}
+
+
+.stay_posted_main_heading {
+    height: 4.5rem;
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 2.6rem;
+    line-height: 4.5rem;
+    color: #FFFFFF;
+}
+
+.stay_posted_main_paragraph {
+    height: 5rem;
+    margin-top: 1.8rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 25rem;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    color: #FFFFFF;
+}
+
+.footer_inner_email_addres {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.6rem;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 4.3rem;
+    margin-top: 9.3rem;
+
+}
+
+.nav_item a {
+    text-decoration: none;
+    font-weight: 25rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    color: rgba(255, 255, 255, 0.6);
+
+}
